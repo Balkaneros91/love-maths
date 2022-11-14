@@ -39,7 +39,7 @@ function runGame(gameType) {
     let num1 = Math.floor(Math.random() * 25) +1;
     let num2 = Math.floor(Math.random() * 25) +1;
     let num3 = Math.trunc(Math.random() * 100) + 1;
-	let num4 = Math.trunc(Math.random() * 5) + 1;
+	let num4 = Math.trunc(Math.random() * 10) + 2;
 
     if (gameType === 'addition') {
         displayAdditionQuestion(num1, num2);
